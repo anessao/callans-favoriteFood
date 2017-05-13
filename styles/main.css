@@ -1,0 +1,22 @@
+body {
+  background-color: #E74C3C; }
+  body .btn {
+    background-color: #2C3E50;
+    font-size: 5rem;
+    font-weight: bold;
+    color: white; }
+
+.jumbotron {
+  background-color: #3498DB; }
+
+.test {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/e9/b7/f4/e9b7f4d2a7f82d39a8b5418ad834a02f.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+
+img {
+  border-radius: 600px;
+  border: 5px solid white;
+  margin-top: 50px; }

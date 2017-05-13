@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zoe's Favorite Food | NSS Assignment</title>
+	<link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./styles/main.css">
+</head>
+<body ng-app="callanWeirness">
+	<div ng-controller="callansSoul">
+		<div ng-class="class">
+			<div class="jumbotron">
+				<div class="container">
+					<h1>CALLAN'S SHOP OF HORRORS</h1>
+					<p>for the strange and deranged alike!</p>
+				</div>
+			</div>
+			<div class="container">
+				<button class="col-xs-12 btn" ng-click="showSoul()">{{buttonLabel}}</button>
+				<div class="row">
+					<div class="col-xs-12 col-xs-offset-3" id="results" ng-show="foodItemShow">
+						<img src="http://files.shandymedia.com/styles/page_full/s3/images/photos/thesavory/p1818ckcj853o1p3u15fbfeo1sf5c.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="./lib/bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="./javascripts/main.js"></script>
+</body>
+</html>
